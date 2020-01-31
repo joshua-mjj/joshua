@@ -1,0 +1,142 @@
+body{
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+header{
+	background: #25424a;
+	border-bottom: red 3px solid;
+
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr;
+
+}
+.nav-wrap{
+	display: flex;
+	justify-content: space-between;
+
+}
+.nav-left{
+	display: flex;
+	margin: 23px;
+}
+.nav-wrap > .nav-left > div{
+	margin-right: 20px;
+	text-transform: uppercase;
+	font-size: 0.9em;	
+}
+.nav-link{
+	border-bottom: 1px solid transparent;
+	height: 20px;
+	transition: border-bottom 0.5s;
+}
+.nav-link a{
+	color: red;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+.nav-link:hover{
+	border-bottom: 1px solid orange;
+}
+.nav-link a: hover{
+	color : orange;
+}
+.img img{
+	padding: 10px;
+	width:350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.text p{
+	font-size: 0.8em;
+	margin: 0px;
+    padding-top: 0px;
+   color: black;
+   text-align: center;
+   top: 0;
+}
+.show-case{
+	background-color: lightblue;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-right: 0px;
+}
+.form{
+	background: url('../img/onej.jpg') no-repeat 0 -2000px;
+	margin-top: 10px;
+	padding: 20px;
+	height: 20px;
+	background-color: orange;
+	text-transform: uppercase;
+}
+.text{
+	margin-right: 20px;
+}
+.mail{
+    margin-right: 10px;
+}
+.author-name {
+	color: skyblue;
+	font-weight: bold;
+}
+footer{
+	margin-top: 10px;
+	background: url('../img/onea.jpg') no-repeat 0 -2000px;
+}
+.foot{
+	text-align: center;
+	color: gray;
+    font-weight: bold;
+}
+.button_1{
+	height: 30px;
+	background: orange;
+	border: 0;
+	margin-bottom : 20px;
+	color: white;
+}
+.img-about img{
+	padding: 10px;
+	width: 95%;
+}
+.text-about {
+	float: right;
+}
+.middle-about{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.text-about {
+	padding: 30px;
+	margin-right: 100px;
+}
+.text-about h2{
+   color: gray;
+}
+.title h2{
+	color: #25424a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
